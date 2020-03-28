@@ -1,0 +1,88 @@
+Dependencies for Project 'SHC210', Target 'SHC210': (DO NOT MODIFY !)
+F (.\can.c)(0x5D313AED)(--c99 -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork -I "..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178" -DTM4C123AE6PM -Drvmdk -DPART_TM4C123AE6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123AE6PM-o .\out\can.o --omf_browse .\out\can.crf --depend .\out\can.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53464854)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_memmap.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_ints.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_can.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/pin_map.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/sysctl.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/gpio.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/interrupt.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/can.h)(0x5BA2F64E)
+I (inc/global.h)(0x5D31691E)
+I (inc/can_shc.h)(0x5D313B01)
+I (inc/function.h)(0x5B8F56FC)
+I (inc/display.h)(0x5D314129)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/rom.h)(0x5B80D6C9)
+F (.\display.c)(0x5D316669)(--c99 -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork -I "..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178" -DTM4C123AE6PM -Drvmdk -DPART_TM4C123AE6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123AE6PM-o .\out\display.o --omf_browse .\out\display.crf --depend .\out\display.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53464854)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_memmap.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/gpio.h)(0x5B80D6C9)
+I (inc/global.h)(0x5D31691E)
+I (inc/display.h)(0x5D314129)
+I (inc/function.h)(0x5B8F56FC)
+F (.\function.c)(0x5D316939)(--c99 -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork -I "..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178" -DTM4C123AE6PM -Drvmdk -DPART_TM4C123AE6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123AE6PM-o .\out\function.o --omf_browse .\out\function.crf --depend .\out\function.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53464854)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_gpio.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_memmap.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_types.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/gpio.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/sysctl.h)(0x5B80D6C9)
+I (inc/global.h)(0x5D31691E)
+I (inc/can_shc.h)(0x5D313B01)
+I (inc/function.h)(0x5B8F56FC)
+I (inc/display.h)(0x5D314129)
+F (.\main.c)(0x5D31747C)(--c99 -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork -I "..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178" -DTM4C123AE6PM -Drvmdk -DPART_TM4C123AE6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123AE6PM-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53464854)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_gpio.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_types.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_can.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_memmap.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_sysctl.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_ints.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/sysctl.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/gpio.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/interrupt.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/systick.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/can.h)(0x5BA2F64E)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/watchdog.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/pin_map.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/rom.h)(0x5B80D6C9)
+I (inc/sysclock.h)(0x5B8F56FB)
+I (inc/global.h)(0x5D31691E)
+I (inc/display.h)(0x5D314129)
+I (inc/function.h)(0x5B8F56FC)
+F (.\scroll_h.c)(0x5D313F1F)(--c99 -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork -I "..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178" -DTM4C123AE6PM -Drvmdk -DPART_TM4C123AE6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123AE6PM-o .\out\scroll_h.o --omf_browse .\out\scroll_h.crf --depend .\out\scroll_h.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53464854)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_memmap.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/gpio.h)(0x5B80D6C9)
+I (inc/function.h)(0x5B8F56FC)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_types.h)(0x5B80D6CB)
+I (inc/display.h)(0x5D314129)
+I (inc/global.h)(0x5D31691E)
+F (.\scroll_v.c)(0x5D3167B6)(--c99 -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork -I "..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178" -DTM4C123AE6PM -Drvmdk -DPART_TM4C123AE6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123AE6PM-o .\out\scroll_v.o --omf_browse .\out\scroll_v.crf --depend .\out\scroll_v.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53464854)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_memmap.h)(0x5B80D6CB)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/gpio.h)(0x5B80D6C9)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_types.h)(0x5B80D6CB)
+I (inc/display.h)(0x5D314129)
+I (inc/global.h)(0x5D31691E)
+I (inc/function.h)(0x5B8F56FC)
+F (.\sysclock.c)(0x5D313B57)(--c99 -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork -I "..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178" -DTM4C123AE6PM -Drvmdk -DPART_TM4C123AE6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123AE6PM-o .\out\sysclock.o --omf_browse .\out\sysclock.crf --depend .\out\sysclock.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53464854)
+I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/systick.h)(0x5B80D6C9)
+I (inc/global.h)(0x5D31691E)
+F (.\startup_rvmdk.S)(0x5D313D24)(--cpu Cortex-M4.fp -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0--list .\startup_rvmdk.lst --xref -o .\out\startup_rvmdk.o --depend .\out\startup_rvmdk.d)
+F (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib\rvmdk\driverlib.lib)(0x5B80D6C9)()
+F (.\inc\can_shc.h)(0x5D313B01)()
+F (.\inc\display.h)(0x5D314129)()
+F (.\inc\function.h)(0x5B8F56FC)()
+F (.\inc\global.h)(0x5D31691E)()
+F (.\inc\sysclock.h)(0x5B8F56FB)()

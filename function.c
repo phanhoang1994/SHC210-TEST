@@ -126,14 +126,14 @@ typedef struct
 const xDemo xDemoData[DEMO_LEDCODE]=
 {
 	//Led7Seg,	Status	Delay,
-	{0x49,		0,	3000},	//0-Stop
-	{0x64,		0,	3000},	//1-Inspection
-	{0x76,		0,	3000},	//2-Reset
+	{0x49,		0,	5000},	//0-Stop
+	{0x64,		0,	5000},	//1-Inspection
+	{0x76,		0,	5000},	//2-Reset
 	{0x77,		0,	5000},	//3-Rescue
 	{0x79,		0,	5000},	//4-Error
-	{0x7C,		0,	3000},	//5-B
-	{0x38,		0,	3000},	//6-L
-	{0x37,		0,	4000},	//7-M
+	{0x7C,		0,	1000},	//5-B
+	{0x38,		0,	1000},	//6-L
+	{0x37,		0,	1000},	//7-M
 	{0x0E,		0,	1500},	//8-B1
 	{0x0F,		0,	1500},	//9-B2
 	{0x10,		0,	1500},	//10-M1
@@ -370,7 +370,7 @@ void vSysTickTimerExpired(void)
 		if(_isset(ulInport, PIN_X1)){	xData.ucLed7Seg = 0xFF;}
 		xData.ucStatus = xDemoData[ucDemoCode].ucStatus;
 		uiTimerDemo = xDemoData[ucDemoCode].uiDelay;
-		if(++ucDemoCode >= 4){ ucDemoCode = 1;}
+		if(++ucDemoCode >= 68){ ucDemoCode = 1;}
 	}
 
 	vScanled();

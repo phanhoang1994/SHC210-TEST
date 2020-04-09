@@ -23,7 +23,7 @@ I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib/gpio.h)(0x5B80D6C9
 I (inc/global.h)(0x5D31691E)
 I (inc/display.h)(0x5D314129)
 I (inc/function.h)(0x5B8F56FC)
-F (.\function.c)(0x5D316939)(--c99 -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork -I "..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178" -DTM4C123AE6PM -Drvmdk -DPART_TM4C123AE6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123AE6PM-o .\out\function.o --omf_browse .\out\function.crf --depend .\out\function.d)
+F (.\function.c)(0x5E8F36BF)(--c99 -c --cpu Cortex-M4.fp -g -O2 --apcs=interwork -I "..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178" -DTM4C123AE6PM -Drvmdk -DPART_TM4C123AE6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123AE6PM-o .\out\function.o --omf_browse .\out\function.crf --depend .\out\function.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53464854)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53464854)
 I (..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\inc/hw_gpio.h)(0x5B80D6CB)
